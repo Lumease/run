@@ -13,25 +13,30 @@
   outline: none;
   /* Permet de modifier la bordure (au clic) d'un bouton de formulaire  */
 }
+
 h1 {
   font-size: 3.4rem;
   font-weight: 200;
 }
+
 h2 {
   font-size: 2.25rem;
   font-weight: 500;
   letter-spacing: -1px;
 }
+
 a,
 a:visited {
   color: black;
   text-decoration: none;
 }
+
 p {
   line-height: 36px;
   margin: 25px 0;
   font-size: 1.25rem;
 }
+
 .button {
   border: 1px solid #ccc;
   background: transparent;
@@ -46,10 +51,11 @@ p {
   /* Permet de paramétrer plus rapidement la font. */
   transition: 0.3s;
 }
+
 .button:hover,
 footer a:hover {
-  border: 1px solid skyblue;
-  color: skyblue;
+  border: 1px solid rgb(0, 68, 255);
+  color: rgb(0, 68, 255);
 }
 
 .container {
@@ -63,6 +69,7 @@ footer a:hover {
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
+
 .section-1,
 .section-2,
 .contact {
@@ -75,6 +82,7 @@ header {
   display: grid;
   grid-template-columns: 50% 50%;
 }
+
 .img-banner {
   background: url(../../assets/img/banner.jpg) right/cover;
   /* right/cover permet montrer uniquement la partie de droite d'une image.  */
@@ -86,6 +94,7 @@ header {
   grid-template-columns: 37% 63%;
   min-height: 400px;
 }
+
 .section-1 .img {
   background: url(../../assets/img/img-left.jpg) center/cover;
 }
@@ -96,6 +105,7 @@ header {
   grid-template-columns: 65% 35%;
   min-height: 400px;
 }
+
 .section-2 .img {
   background: url(../../assets/img/img-right.jpg) center/cover;
 }
@@ -106,6 +116,7 @@ header {
   position: relative;
   padding: 60px 0;
 }
+
 .form-grid {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -119,14 +130,17 @@ header {
   margin: 30px auto;
   /* En spécifiant une width et une max-width, cela permet de positionner correctement un élément en fonction de la taille de l'écran. C'est un gain de temps pour le Responsive.  */
 }
+
 .textarea {
   grid-area: texta;
 }
+
 label {
   font-weight: 600;
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
+
 input[type="text"],
 textarea {
   width: 100%;
@@ -136,11 +150,13 @@ textarea {
   padding: 10px;
   transition: 0.2s;
 }
+
 input[type="text"]:focus,
 textarea:focus {
   border: 2px solid skyblue;
   /* Permet de styliser les input. Mettre la transition au parent. */
 }
+
 textarea {
   resize: none;
   height: 180px;
@@ -151,6 +167,7 @@ footer {
   padding: 70px 0 90px;
   position: relative;
 }
+
 footer:before {
   content: "";
   position: absolute;
@@ -164,6 +181,7 @@ footer:before {
   transform: translateX(-50%);
   /* Permet de centrer un élément en position:absolute.  */
 }
+
 footer ul {
   display: flex;
   justify-content: space-between;
@@ -173,6 +191,7 @@ footer ul {
   margin: 0 auto;
   /* Permet de centrer un élement lorsqu'une width est appliquée.  */
 }
+
 footer a {
   border: 1px solid #ccc;
   border-radius: 50px;
@@ -186,28 +205,35 @@ footer a {
 
 /******************* RESPONSIVE *******************/
 @media screen and (max-width: 650px) {
+
   header,
   .section-1,
   .section-2 {
     display: block;
   }
+
   header {
     height: auto;
   }
+
   header .img-banner {
     height: 50vh;
     margin-top: 30px;
   }
+
   .container {
     padding: 15px;
   }
+
   footer ul {
     min-width: 200px;
   }
+
   footer a {
     width: 24px;
     height: 24px;
   }
+
   footer i {
     font-size: 0.6rem;
     /* Les tailles d'icones sont gérés par font-size.  */
