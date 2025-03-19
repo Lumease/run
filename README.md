@@ -54,4 +54,60 @@ Puis :
 
 Lumease - 2025.
 
+---
+
+# Welcome to the "Run" Project!
+
+This is a public and available template. You can use it as a customizable model.
+
+## Description
+
+This project is carried out as part of the "Mastering Front-End" training.
+Elegant and refined, this website allows you to launch your brand or promote your products or services with a simple design.
+You can visit it via the following link: https://lumease.github.io/run/.
+
+## Editing and Publishing the Template
+
+Are you a beginner and want to use this template?
+
+You will need to download Git Bash (for Windows and Mac). For Mac, use the Terminal application.
+
+After launching it, enter the following commands:
+
+- 'cd Desktop'
+- 'git clone https://github.com/Lumease/run.git'
+- Open your code editor and then open the folder.
+
+Or download the compressed ZIP format.
+
 --
+
+To Publish:
+
+- Follow these instructions after creating an account:
+
+  - Open the terminal and enter:
+    - git config --global user.name "Username"
+    - git config --global user.email "my@email.com"
+    - git config --global --list → Allows you to verify if the name and email are correctly registered.
+
+Then:
+
+- Open the terminal and enter the following commands:
+
+  - 'cd Desktop/file-name'
+  - 'git add .'
+  - 'git commit -m "Your-message" '
+  - 'git push -u origin main'
+
+- From VS Code:
+
+  Select "Bash" in the terminal, then enter:
+
+  - 'git add .'
+  - 'git commit -m "Your-message" '
+  - 'git push -u origin main'
+
+## Author
+
+Lumease - 2025.
